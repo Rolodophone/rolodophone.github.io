@@ -31,10 +31,9 @@ Please note this game is a work in progress and has several issues at the moment
 ### Bog Roll Run
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723532.png" width="24%"/>
-  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723562.png" width="24%"/>
-  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723590.png" width="24%"/>
-  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723598.png" width="24%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723532.png" width="32%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723562.png" width="32%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723598.png" width="32%"/>
 </p>
 
 Go to the shop and to some toilet paper, but don't get too close to anyone!
