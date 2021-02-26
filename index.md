@@ -4,6 +4,11 @@ Hey, my name is Sergi. Here are some games and random programs I've made in my f
 
 ### Operation Trepidation
 
+![](https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-220349_Operation%20Trepidation.jpg)
+![](https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-220755_Operation%20Trepidation.jpg)
+![](https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-224550_Operation%20Trepidation.jpg)
+![](https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-225017_Operation%20Trepidation.jpg)
+
 Perform operations by swiftly carrying out the correct actions in the correct order. Beware, if one of the pain, infection, or blood loss gauges reaches 100%, the patient dies, and it's back to square one. There are 3 levels of increasing difficulty; good luck!
 
 Look at the hints; they will help you!
