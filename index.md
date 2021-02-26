@@ -4,10 +4,12 @@ Hey, my name is Sergi. Here are some games and random programs I've made in my f
 
 ### Operation Trepidation
 
-<img src="https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-220349_Operation%20Trepidation.jpg" width="25%"/>
-<img src="https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-220755_Operation%20Trepidation.jpg" width="25%"/>
-<img src="https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-224550_Operation%20Trepidation.jpg" width="25%"/>
-<img src="https://github.com/Rolodophone/operation-trepidation/blob/master/dev/Screenshot_20200420-225017_Operation%20Trepidation.jpg" width="25%"/>
+<p float="left">
+  <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-220349_Operation%20Trepidation.jpg" width="24%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-220755_Operation%20Trepidation.jpg" width="24%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-224550_Operation%20Trepidation.jpg" width="24%"/>
+  <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-225017_Operation%20Trepidation.jpg" width="24%"/>
+</p>
 
 Perform operations by swiftly carrying out the correct actions in the correct order. Beware, if one of the pain, infection, or blood loss gauges reaches 100%, the patient dies, and it's back to square one. There are 3 levels of increasing difficulty; good luck!
 
