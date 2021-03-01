@@ -1,107 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>Rolodophone</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
+
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
 }
+
+.program-block {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  overflow: auto;
+}
+
+.program-text {
+  padding-right: 32px;
+}
+
 </style>
+
+
 <body>
+
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  <div class="w3-bar w3-teal w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-theme-l1">Rolodophone</a>
+    <a href="#games" class="w3-bar-item w3-button w3-hover-white">Games</a>
+    <a href="#other-programs" class="w3-bar-item w3-button w3-hover-white">Other programs</a>
   </div>
 </div>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-</nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
-
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<!-- Main content -->
+<div class="w3-main">
+  
+  <!-- Games -->
+  <div class="w3-row w3-padding-64 w3-container" id="games">
+    <h1 class="w3-text-teal">Games</h1>
+    
+    <div class="program-block">
+      <div class="w3-half program-text">
+        <h2>Operation Trepidation</h2>
+        <p>Perform operations by swiftly carrying out the correct actions in the correct order. Beware, if one of the pain, infection, or blood loss gauges reaches 100%, the patient dies, and it's back to square one. There are 3 levels of increasing difficulty; good luck!</p>
+        <p>Look at the hints; they will help you!</p>
+        <a href='https://play.google.com/store/apps/details?id=net.rolodophone.ludumdare46&utm_source=150&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width=200/></a>
+      </div>
+      <div class="w3-half program-images">
+        <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-220349_Operation%20Trepidation.jpg" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-220755_Operation%20Trepidation.jpg" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-224550_Operation%20Trepidation.jpg" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/operation-trepidation/master/dev/Screenshot_20200420-225017_Operation%20Trepidation.jpg" width="24%"/>
+      </div>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    
+    <div class="program-block">
+      <div class="w3-half program-text">
+        <h2>Left Right (WIP)</h2>
+        <p>Tap left and right to collect coins and avoid obstacles.</p>
+        <p>Please note this game is a work in progress and has several issues at the moment.</p>
+        <a href='https://play.google.com/store/apps/details?id=net.rolodophone.leftright&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width=200/></a>
+      </div>
+      <div class="w3-half program-images">
+        <img src="https://raw.githubusercontent.com/Rolodophone/left-right/master/dev/Screenshot_1589811500.png" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/left-right/master/dev/Screenshot_1589811555.png" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/left-right/master/dev/Screenshot_1589811673.png" width="24%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/left-right/master/dev/Screenshot_1589811697.png" width="24%"/>
+      </div>
     </div>
+    
+    <div class="program-block">
+      <div class="w3-half program-text">
+        <h2>Bog Roll Run</h2>
+        <p>Go to the shop and to some toilet paper, but don't get too close to anyone!</p>
+        <p>Unfortunately, this game is not available on the Google Play Store as it references COVID. However, you can install it in only a few extra taps if you follow the instructions in its Itch.io page below.</p>
+        <iframe src="https://itch.io/embed/651395" height="167" width="552" frameborder="0"><a href="https://rolodophone.itch.io/bog-roll-run">Bog Roll Run by rolodophone</a></iframe>
+      </div>
+      <div class="w3-half program-images">
+        <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723532.png" width="32%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723562.png" width="32%"/>
+        <img src="https://raw.githubusercontent.com/Rolodophone/bog-roll-run/master/dev/Screenshot_1589723598.png" width="32%"/>
+      </div>
+    </div>
+    
   </div>
 
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <!-- Other programs -->
+  <div class="w3-row w3-padding-64 w3-container" id="other-programs">
+    <h1 class="w3-text-teal">Other programs</h1>
+    
+     <div class="program-block">
+      <div class="w3-half program-text">
+        <h2>Maze Solver</h2>
+        <p>Create a maze (or just use a random one) and watch as the computer solves it at breakneck speed!</p>
+      </div>
+      <div class="w3-half program-images">
+      </div>
     </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    
+    <div class="program-block">
+      <div class="w3-half program-text">
+        <h2>Dragon Curve Drawer</h2>
+        <p>Watch the computer draw a beautiful <a href="https://en.wikipedia.org/wiki/Dragon_curve">Dragon Curve</a></p>
+      </div>
+      <div class="w3-half program-images">
+      </div>
     </div>
+    
   </div>
-
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="w3-third w3-container">
-      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
-      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
-    </div>
-  </div>
-
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a class="w3-button w3-black" href="#">1</a>
-      <a class="w3-button w3-hover-black" href="#">2</a>
-      <a class="w3-button w3-hover-black" href="#">3</a>
-      <a class="w3-button w3-hover-black" href="#">4</a>
-      <a class="w3-button w3-hover-black" href="#">5</a>
-      <a class="w3-button w3-hover-black" href="#">»</a>
-    </div>
-  </div>
-
-  <footer id="myFooter">
+  
+<!-- Footer  -->
+  <footer>
     <div class="w3-container w3-theme-l2 w3-padding-32">
-      <h4>Footer</h4>
+      <p>Google Play and the Google Play logo are trademarks of Google LLC</p>
     </div>
 
     <div class="w3-container w3-theme-l1">
@@ -109,33 +129,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
   </footer>
 
-<!-- END MAIN -->
 </div>
-
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
 
 </body>
 </html>
